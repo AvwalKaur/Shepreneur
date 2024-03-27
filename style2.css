@@ -147,6 +147,7 @@ ul{
     left: 20%;
 }
 .slide-carousel{
+    border: 1px solid green;
     margin: 1%;
     display: flex;
     height: 80vh;
@@ -156,7 +157,7 @@ ul{
     scroll-behavior: smooth;
 }
 .slide-img{
-    height: 65vh;
+    height: 70vh;
     width: 95vw;
 }
 /* footer starts */
