@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans", sans-serif; 
+}
+html,body{
+    overflow-x: hidden;
+}
+.header{
+    /* overflow: hidden; */
+    position: fixed;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightblue;
+}
+.logo{
+    height: 10rem;
+    width: 8rem;
+    object-fit: cover;
+    margin-left: 1rem;
+}
+.navbar{
+    padding: 1rem;
+    margin-right: 2rem;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+li a,a:visited{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+.navbar-list li a:hover{
+    opacity: 50%;
+    text-decoration: underline;
+}
+.content{
+    padding: 7rem 1.5rem;
+    font-weight: bold;
+    background:url("img/9.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 95vw;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+.card{
+    position: relative;
+}
+div.text{
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    padding: 4rem;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    margin: 2rem;
+}
+div.text{
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    padding: 4rem;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    margin: 2rem;
+}
+div.image{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+div.image img{
+    width: 40rem;
+}
+.social .icons{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 16rem;
+    background-color: lightblue;
+    gap: 1rem;
+}
+.logo2{
+    height: 6rem;
+    width: 9rem;
+    object-fit: cover;
+}
+.follow-us .icons .fa-brands{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    /* background: linear-gradient(#c91f1f,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.follow-us{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.copyright{
+    font-size: 1.1rem;
+}
