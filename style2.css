@@ -157,6 +157,8 @@ ul{
 .slide-img{
     height: 70vh;
     width: 95vw;
+    border: 2px solid black;
+    padding: 0.2rem;
 }
 /* footer starts */
 .footer{
