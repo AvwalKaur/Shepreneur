@@ -125,7 +125,8 @@ ul{
 }
 .carousel-head{
     text-align: center;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 .left-btn,.right-btn{
     height: 65vh;
