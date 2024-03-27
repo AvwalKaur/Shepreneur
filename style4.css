@@ -73,13 +73,15 @@ div.text{
     margin: 2rem;
 }
 div.text{
-    position: absolute;
+    position:absolute;
     top: 18%;
     left: 18%;
     padding: 4rem;
     font-family: "Martel Sans", sans-serif;
     font-size: 1.5rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 2rem;
 }
 div.image{
@@ -91,20 +93,19 @@ div.image img{
     width: 40rem;
 }
 .social .icons{
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0.5rem;
-    border: 2px solid #000;
-    border-radius: 50%;
-    background-color: #fff;
     position: relative;
+    height: 1.5rem;
 }
 .social{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 1rem;
     position: absolute;
     top: 70%;
-    left: 30%;
+    left: 28%;
     
 }
 .footer{
