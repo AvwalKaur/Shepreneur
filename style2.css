@@ -183,6 +183,9 @@ ul{
 .left-btn,.right-btn{
     height: 40vh;
     width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     cursor: pointer;
     position: absolute;
