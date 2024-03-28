@@ -84,11 +84,11 @@ li a,a:visited{
   
    100%{
        opacity: 1;
-       margin-left: ;
+       margin-left: 0;
    }
 }
 .second-head{
-    margin: 10rem 35rem;
+    margin-top: 10rem;
     font-family: "Anonymous Pro", monospace;
     font-weight: bolder;
     font-size: 3rem;
