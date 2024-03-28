@@ -100,11 +100,11 @@ li a,a:visited{
 @-webkit-keyframes secondHead{
     0%{
        opacity: 0;
-       margin-left: 0;
+       margin-right: 0;
     }
     100%{
         opacity: 1;
-        margin-left: ;
+        margin-right: ;
     }
 }
 /* Content Section starts */
