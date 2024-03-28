@@ -20,9 +20,8 @@ html,body{
     align-items: center;
     background-color:lightblue;
 }
-
 .logo{
-    height: 5rem;
+    height: 10rem;
     width: 8rem;
     object-fit: cover;
     margin-left: 1rem;
