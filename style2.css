@@ -64,11 +64,9 @@ li a,a:visited{
 }
 .intro{
    margin: 1rem;
-   border: 2px solid green;
 }
 .intro-head{
    margin: 10rem 35rem;
-   border: 1px solid black;
    position: absolute;
    font-size: 3.5rem;
    font-weight: bold;
