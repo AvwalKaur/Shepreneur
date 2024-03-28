@@ -181,6 +181,7 @@ ul{
     margin-left: 23rem;
 }
 .left-btn,.right-btn{
+    height: 40vh;
     width: 50px;
     display: flex;
     justify-content: center;
