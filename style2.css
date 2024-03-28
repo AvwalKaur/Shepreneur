@@ -94,7 +94,7 @@ li a,a:visited{
     position: absolute;
     text-align: center;
     color: purple;
-    
+    -webkit-animation: secondHead 2s ease-in;
 }
 
 @-webkit-keyframes secondHead{
