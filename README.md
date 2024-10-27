@@ -1,5 +1,5 @@
 *SHEPRENEUR*
-https://garima-149.github.io/Shepreneur/
+https://diya05arora.github.io/Shepreneur/
 
 A dynamic platform which is specifically designed for women in enterprenuership.
 
